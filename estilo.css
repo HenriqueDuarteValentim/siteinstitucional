@@ -1,0 +1,45 @@
+.header{
+
+    background-color: black;
+    border:3px purple solid;
+    color:white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width:80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.active{
+    font-weight: bolder;
+}
+
+.navbar{
+
+    display: flex;
+    list-style: none;
+    width: 39%;
+    justify-content:space-between;
+}
+
+.header h1{
+    color:purple;
+}
+
+.header container{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.navbar li a{
+    text-decoration: none;
+}
