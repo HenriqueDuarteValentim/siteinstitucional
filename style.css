@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.header{
+background-color: black;
+/* border: #c7c7c7 2px solid;
+border-bottom: none; */
+height: 100px;
+}
+
+.container{
+width: 80%;
+height: 100%;
+margin: auto;
+}
+
+.header .container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.navbar{
+display: flex;
+list-style: none;
+width: 39%;
+justify-content: space-between;
+}
+
+.header h1{
+color: #c7c7c7
+}
+
+.navbar li{
+color: #c7c7c7
+
+}
+
+.navbar .ativo{
+font-weight: bolder;
+}
+
+.navbar li a{
+text-decoration: none;
+color: #c7c7c7;
+}
+
+.banner{
+    height :500px;
+    background-color: red;
+    background-image: url(https://www.publicdomainpictures.net/pictures/140000/velka/starry-night-sky.jpg); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.message{
+    color:#c7c7c7;
+    font-size: 35px;
+    width: 10%;
+    margin-right: 250px;
+
+}
+
+.message span{
+    font-weight: bolder;
+}
+
+.proposito{
+    height: 450px;
+    
+}
+
+.proposito .container .mvv div img{
+
+    height: 100px;
+    width: 100px;
+
+}
+.proposito .container .mvv{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.proposito .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proposito .container .mvv div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+
+}
+
+.proposito .container h2 {
+    color: #c7c7c7;
+    background-color:black;
+    padding:15px;
+    border-radius: 25px;
+}
+.proposito .container h3 {
+    color: #c7c7c7;
+    background-color:black;
+    padding:10px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+.footer {
+    color: #c7c7c7;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+}
+
+.formLogin{
+    color:#c7c7c7;
+    height: 350px;
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.banner .formLogin div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.banner .formLogin span{
+    color:#c7c7c7;
+    background-color: black;
+    border-radius: 10px;
+    padding:10px;
+    text-align: center;
+}
+
+.banner .formLogin input{
+    border: 2px solid #c7c7c7;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 5px;
+}
+
+.banner .formLogin button{
+    padding: 15px;
+    background-color: black;
+    color: #c7c7c7;
+    border:none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.banner .formLogin h2{
+    padding: 15px;
+    background-color: black;
+    color: #c7c7c7;
+    border:none;
+    font-size: 18px;
+    border-radius: 20px; 
+
+}
