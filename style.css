@@ -51,8 +51,7 @@ color: #c7c7c7;
 }
 
 .banner{
-    height :500px;
-    background-color: red;
+    height :450px;
     background-image: url(https://www.publicdomainpictures.net/pictures/140000/velka/starry-night-sky.jpg); 
     display: flex;
     justify-content: center;
@@ -133,6 +132,7 @@ color: #c7c7c7;
     align-items: center;
     display: flex;
     font-size: 15px;
+    
 }
 
 .formLogin{
@@ -159,6 +159,7 @@ color: #c7c7c7;
     border-radius: 10px;
     padding:10px;
     text-align: center;
+    margin-top:15px;
 }
 
 .banner .formLogin input{
@@ -176,6 +177,13 @@ color: #c7c7c7;
     border:none;
     font-size: 18px;
     border-radius: 10px;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+}
+
+.banner .formLogin button:hover{
+    background-color: #c7c7c7;
+    color: black;
 }
 
 .banner .formLogin h2{
@@ -184,6 +192,13 @@ color: #c7c7c7;
     color: #c7c7c7;
     border:none;
     font-size: 18px;
-    border-radius: 20px; 
+    border-radius: 20px;
+
 
 }
+
+.cadastro .banner{
+    height: 600px;
+}
+
+
